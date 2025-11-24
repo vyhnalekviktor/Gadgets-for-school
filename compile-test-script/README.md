@@ -10,8 +10,8 @@ Bash script I have on my school Gitlab in Progtest repo. It is used for running 
 	- `/FOLDER/TEST/BONUS/` -> voluntary folder for bonus tests
 		- contains tests in same format as normal
 2. run the test script
-	`$ ./run.sh "$FOLDER" "$CODE" "$PARAM"` 
-	with each parameter meaning:
+	- `$ ./run.sh "$FOLDER" "$CODE" "$PARAM"` 
+	- with each parameter meaning:
 		- `$FOLDER` -> contains code + TEST/*
 		- `$CODE` -> code we want to test
 		- `$PARAM` -> voluntary -b, calls the bonus tests
